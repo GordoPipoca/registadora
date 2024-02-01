@@ -1,0 +1,264 @@
+header{
+    height: 150px;
+    background-color: #D2D2D4;
+    width: 100%;
+    border-bottom: #0C151C solid;
+}
+#emprelogo{
+    width: 20%;
+    height: 150px;
+    background-color: #E4E5EA;
+    float: left;
+}
+#emprelogo h1{
+    text-align: center;
+    margin-top: 45px;
+    color: #0C151C;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*botonera*/
+#navbar{
+    width: 100%;
+    height: 150px;
+}
+#navbar ul{
+    list-style-type: none;
+}
+#navbar ul li{
+    display: inline;
+    margin-left: 40px;
+
+}
+#navbar ul li a{
+    display: inline-block;
+    width: 15%;
+    height: 60px;
+    background-color: #6B99C3;
+    margin-top: 35px;
+    margin-left: 6%;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    color: #0C151C;
+    border-radius: 14px;
+    padding-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+#navbar ul li a:hover{
+    background-color: #16354D;
+    color: #E4E5EA;
+}
+/*seccion 1*/
+#s1{
+    width: 100%;
+    height: 600px;
+    background-color: aqua;
+}
+/*div para cargar datos*/
+#cargar{
+    width: 30%;
+    height: 600px;
+    background-color: #D2D2D4;
+    float: left;
+}
+/*formulario para cargar*/
+#form{
+    height: 500px;
+    width: 90%;
+    background-color: #6B99C3;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*carrito seccion*/
+#carrito{
+    width: 35%;
+    height: 600px;
+    background-color: #E4E5EA;
+    float: left;
+
+}
+/*Historial*/
+#historial{
+    width: 35%;
+    height: 600px;
+    background-color:#D2D2D4;
+    float: left;
+}
+/*clase para los titulos*/
+.Tittle{
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #0c151cc0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0C151C;
+}
+/* clase para los labales input*/
+.labelsinp{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 900;
+    padding-top: 20px;
+}
+/*clase para los inputs*/
+.inputs{
+    height: 30px;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1em;
+    border-radius: 20px;
+    text-align: center;
+}
+/*clase para los botones*/
+.btn{
+    width: 45%;
+    height: 50px;
+    background-color:#16354D;
+    color: #E4E5EA;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+/* boton cargar */
+#cargarbtn{
+    margin-left: 27%;
+    margin-top: 90px;
+    border-radius: 20px;
+
+}
+.btn:hover{
+    color: #0C151C;
+    background-color: #E4E5EA;
+    cursor: pointer;
+
+}
+/* clase para la tabla*/
+.Table{
+    height: 20px;
+    width: 150px;
+    background-color:#6B99C3;
+    text-align: center;
+    table-layout: fixed;
+    font-weight: 600;
+    color: #0C151C;
+}
+/*tabla de carrito*/
+#Ccarrito{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*contenedor carrito*/
+#contenedor_carrito{
+    height: 450px;
+    width: 97%;
+}
+/*titulos de las tablas*/
+#P,#D,#PR{
+    background-color: #16354D;
+    color: #E4E5EA;
+    text-transform: uppercase;
+}
+/* boton de cobrar*/
+#cobrarbtn{
+    margin-left: 25%;
+    border-radius: 20px;
+}
+/*contenedor del monto de pago*/
+#contenedor-pagototal{
+    background-color: #0C151C;
+    color: #E4E5EA;
+    margin-left: 2.5%;
+}
+/* monto del pAgo*/
+#Totalpago{
+    text-align: center;
+    text-transform: uppercase;
+}
+/*contenedor historial*/
+#contenedor_historial{
+    height: 450px;
+    width: 97%;
+}
+/*tabla historial*/
+#Hhistorial{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* titulo de las tablas*/
+#fechat, #montot{
+    background-color: #16354D;
+    color: #E4E5EA;
+    text-transform: uppercase;
+
+}
+/* FOOTEER*/
+footer{
+    height: 150px;
+    background-color: #16354D;
+    width: 100%;
+}
+/*!!!!!!!!ESTADISTICAS!!!!!!!!!!!!!!!!!!*/
+/*seccion de ventas totales*/
+#ventas_totales{
+    height: 600px;
+    width: 100%;
+    background-color: #E4E5EA;
+}
+/*grafico 1*/
+#piechart{
+    padding-top: 20px;
+    padding-left: 30px;
+    float: right;
+
+
+}
+/* contenedor de ingreso total */
+#contenedor_ingreso{
+    height: 50px;
+    width: 25%;
+    background-color: #16354D;
+    color: #E4E5EA;
+    text-align: center;
+    float: left;
+    margin-top: 200px;
+    margin-left: 300px;
+    box-shadow: 2px 3px 4px #6B99C3;
+    
+}
+#contenedor_ingreso h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+/*contenedor del grafico?*/
+#contenedor_grafico{
+    width: 900px;
+    height: 500px;
+    float: right;
+}
+#ventas_por_dias{
+    height: 1000px;
+    width: 100%;
+    background-color: #E4E5EA;
+}
+#polynomial2_div{
+    padding-top: 20px;
+    padding-left: 30px;
+    float:right;
+    margin-right: 100px;
+}
+#chart_div{
+    padding-top: 20px;
+    padding-left: 30px;
+
+
+}
